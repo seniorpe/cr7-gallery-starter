@@ -62,7 +62,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               CR7 Gallery
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Explore a stunning collection of iconic images showcasing the legendary football career of Cristiano Ronaldo.
+            Explore a curated collection of iconic photos capturing the legendary footballer's greatest moments on and off the field. Relive his career highlights and personal milestones through stunning images.
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
